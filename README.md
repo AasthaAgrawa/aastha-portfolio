@@ -11,94 +11,44 @@ It's always helpful to keep track of your web URL.  Consider putting that somewh
 This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
 
 # About me
-Hi!  I'm Aastha. I'm currently pursuing MS in Information Systems Management at Carnegie Mellon University.
+Hi!  I'm Aastha. I'm currently pursuing MS in Information Systems Management at Carnegie Mellon University. Previously, I studied Computer Science at UMass Amherst, with a minor in Psychology and a certificate in Public Interest Technology.
 
 # What I hope to learn
-From this course, I want to possess the ability to make better design choices to communicate data better. 
+From this course, I want to possess the ability to make better design choices to communicate data better. I hope to learn how to choose effective visualizations, use color purposefully, and help an audience understand the main idea without having to work too hard.
 
+After graduation, I hope to work in product management, where communicating insights clearly can help teams make better decisions. I want to apply what I learn here to presenting research, explaining product opportunities, and telling stories supported by data.
+ 
 # Portfolio
-1. Tableau 
-2. Final Project
+This portfolio documents my assignments, workshop exercises, and final project for Telling Stories with Data at CMU.
 
-# Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
+### Data visualization examples
 
-## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
+[View data visualization examples](dataviz-examples)
 
-## Assignment 3&4: [Critique by Design](critique-by-design)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
+Examples and exercises exploring different ways to communicate data.
 
-## Final project
-Here it might be helpful to include a high-level description of your final project. 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
-Part III(final-project-part-three)
+### Visualizing government debt
 
----
-## Other stuff you can do (you can remove this section - it's just for your reference.)
+[View the assignment](visualizing-government-debt)
 
-### Changing text
+### Critique by Design
 
-You can change text, like this: 
+[View my visualization critique](critique-by-design)
 
-**Here's some bold** text.  Here's some *italic* text. Here's some ~~strikethrough~~ text. 
+An evaluation of an existing visualization and recommendations for improving its clarity and communication.
 
-### Creating tables
+### Workshops
 
-You can build tables like this: 
+#### Controlling Color: The Simple Pie
 
-| Name         | Type of pet | Favority activity 1 | FA 2   | FA 3            | FA 4                                |
-|--------------|-------------|---------------------|--------|-----------------|-------------------------------------|
-| Eli          | cat         | Sleeping            | Eating | Being pet       | Plotting to overthow dog empire     |
-| Howard       | dog         | You                 | You    | You             | Eating                              |
-| Frankenstein | fish        | Swimming            | Eating | Blowing bubbles | Forgetting                          |
+Three versions of a pie chart exploring how color can communicate levels of interest, highlight positive responses, and focus attention on respondents under 30.
 
-An easy-to-use template generator tool [can be found here](https://www.tablesgenerator.com/markdown_tables)
+Sketches and reflections will be added here.
 
-You can use different headings, like this: 
+### Final project
 
-# Here's a large title (H1)
-## Here's a subtitle (H2)
-### ...and so on (H3)
-You get the idea - just don't forget the space between the # and your title.  `#Title` won't work, but `# Title` will. 
+My final project will be developed throughout the course.
 
-### Adding images
-
-Here's an example of how to add an image to my portfolio.  
-
-![funny dog picture](funny-dog-unsplash.jpg)
-> Photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/K4mSJ7kc0As?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-Alternately, you can set the size of the image using just a bit of HTML: 
-
-<img src="funny-dog-unsplash.jpg" width="200"/>
-
-Remember that you'll need to upload the image into your repository, or include a link to the image somewhere else.  
-
-### Setting up a separate page
-
-So here's the code you'll need to add to your own site to create a second page. 
-
-1. First, create a new page in your repository (for example, dataviz1.md)
-2. Next, add a link to that page by inserting the following into your readme.md page:
-
-`[title](dataviz)` or `[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` or `[CMU](https://www.cmu.edu)`
-
-Any of those formats will work. Here's some examples of working links: 
-
-`[title](dataviz)` = [title](dataviz)  
-`[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` = [dataviz](https://cmustudent.github.io/portfolio/dataviz.html)  
-`[CMU](https://www.cmu.edu)` = [CMU](https://www.cmu.edu)   
-
-Make sure to check these from your publicly accessible URL to make sure they're working correctly (not from the preview tab). 
-
-Looking for more?  A nice Markdown guide [can be found here](https://www.markdownguide.org/cheat-sheet/)
-
-## References
-_List any references you used here._
-
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+- [Part I: Proposal and initial exploration](final-project-part-one)
+- [Part II: Research and development](final-project-part-two)
+- [Part III: Final visualization and reflection](final-project-part-three)
