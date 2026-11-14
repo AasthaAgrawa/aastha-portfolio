@@ -20,24 +20,29 @@ I completed and submitted the Data Visualization Effectiveness Profile through t
 
 ## Step three: Sketch a solution
 
-I made a horizontal dot plot in Canva. I gave each country one row and one same-sized dot, then sorted the countries by score from highest to lowest. That gave a small country like Malta the same space as a larger country like France. I used blue for scores above the OECD average and gray for scores below it. I also added a note explaining that PISA reading scores measure how well students understand and use written texts.
+I made a horizontal dot plot in Canva so each country would have its own row and an equally sized dot. I sorted the scores from highest to lowest, which made it easier to find and compare countries. I used blue for scores above the OECD average and gray for scores below it.
 
-In my first wireframe, the legend gave the OECD average of 476 points. I wanted to see whether readers could use the colors and the axis together to make comparisons.
+In my first wireframe, the legend gave the OECD average of 476 points. I wanted to see whether readers could use the legend and the axis together to tell how close a country was to that average.
 
-![Initial Canva wireframe with a sorted dot plot and a blue and gray legend](pisa-wireframe-initial.png)
+![Initial Canva wireframe with a blue and gray legend](pisa-wireframe-initial.png)
+
+*Initial wireframe before feedback.*
 
 ## Step four: Test the solution
 
-I shared my Canva wireframe with Gemini and asked what it understood from the chart, what was confusing, and what it would change. Gemini pointed out that the legend gave the OECD average of 476, but readers still had to estimate where it fell on the axis. It also suggested labeling scores close to the benchmark.
+I shared my initial wireframe with Gemini and asked what it understood from the chart, what was confusing, and what it would change. Gemini was my only source of feedback on the wireframe. It pointed out that readers had to estimate where 476 fell on the axis. It also suggested labeling a few scores near the benchmark.
 
-That feedback helped me see why the color change could feel abrupt when two dots were so close together. In my Tableau redesign, I added a dashed line at 476 and labeled Croatia’s 475 on the left and Portugal’s 477 on the right. The labels show how small the gap is between two countries on opposite sides of the benchmark.
-![Revised Canva wireframe with a dashed OECD benchmark and two score labels](pisa-wireframe-revised.png)
+I realized the color change could make two nearly identical scores look more different than they were. In the revised Canva wireframe, I added a dashed line at 476 and labeled two nearby dots to show how close they were to the benchmark.
+
+![Revised Canva wireframe with a dashed line at 476 and two score labels](pisa-wireframe-revised.png)
+
+*Revised wireframe after Gemini’s feedback.*
 
 ## Step five: Build the solution
 
-I rebuilt the dot plot in Tableau using the 2022 reading scores for the 37 European countries shown. I kept the sorted country names and added a dashed reference line labeled with the OECD average of 476 points. I labeled Croatia’s 475 on the left and Portugal’s 477 on the right. Those scores are only two points apart, and placing the labels beside their dots makes it easier to see why they fall into different color groups. Readers can hover over any dot to see its country and score.
+I rebuilt the dot plot in Tableau using the 2022 PISA reading scores for the 37 European countries shown. I kept the dashed line at the OECD average and labeled Croatia’s 475 on the left and Portugal’s 477 on the right. Their scores are just two points apart, and the labels make that difference easy to see. Readers can hover over any dot to see the country and its exact score.
 
-The chart shows that 15 of the 37 countries shown scored above the OECD average, while 22 scored below it. Ireland and Estonia had the highest scores among the countries shown. The comparison I most wanted readers to see was the one near the benchmark. A country can fall on either side of the average even when its score is very close to it. The dot plot gives readers a way to see both the overall spread and those small differences.
+Ireland and Estonia had the highest scores among the countries shown. Overall, 15 of the 37 countries scored above the OECD average and 22 scored below it. Sorting the dots on a shared scale made it easier to see both the full spread and the small differences near the benchmark.
 
 [Explore the interactive Tableau redesign](https://public.tableau.com/app/profile/aastha.agrawal/viz/PISAReadingScoresAcrossEurope2022/Sheet1)
 
