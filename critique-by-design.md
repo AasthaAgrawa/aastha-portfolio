@@ -1,59 +1,52 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+[Home page](./) | [Data viz examples](dataviz-examples) | [Critique by design](critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three)
 
-# Title
-Text here...
+# Critique by Design: PISA Reading Scores Across Europe
 
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
+## Step one: The visualization
 
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
+I chose Our World in Data’s map of average reading scores for 15-year-olds in the 2022 PISA assessment. I focused on the Europe view with both sexes included. I liked that the map gave me a quick sense of the geographic pattern, and the color scale helped me see where scores were generally higher or lower.
 
-## Step one: the visualization
+Once I wanted to compare specific countries, I had to slow down. Smaller countries were harder for me to spot, and I had to hover over the map or switch to the table to get exact scores. That made me want to design a view around a question I could answer by looking at the chart itself: How do reading scores across Europe compare with the OECD average?
 
-_Include link to the original data visualization (or screenshot - make sure to correctly cite your sources, etc.).  Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
+[View the original Our World in Data map](https://ourworldindata.org/grapher/academic-performance?tab=map&region=Europe&subject=reading&sex=both&time=2022)
 
-## Step two: the critique
-_Don't forget to complete the Google Form found on the assignment page.  You can summarize your thoughts here._
+## Step two: The critique
+
+Using Stephen Few’s Data Visualization Effectiveness Profile, I looked at how well the map supported two tasks: getting a quick overview and comparing individual countries. The map worked well for the overview. For a country-by-country comparison, I had to identify each country on the map, compare its color to the scale, and use a tooltip or table to check the exact value. I also wanted more context for what a reading score like 476 measures.
+
+The critique helped me pinpoint where I was doing extra work as a reader. It also helped me decide what to carry forward. I kept color as a quick visual cue and used a shared numerical axis so readers could compare the scores directly.
+
+I completed and submitted the Data Visualization Effectiveness Profile through the assignment’s Google Form.
 
 ## Step three: Sketch a solution
 
+I made a horizontal dot plot in Canva. I gave each country one row and one same-sized dot, then sorted the countries by score from highest to lowest. That gave a small country like Malta the same space as a larger country like France. I used blue for scores above the OECD average and gray for scores below it. I also added a note explaining that PISA reading scores measure how well students understand and use written texts.
+
+In my first wireframe, the legend gave the OECD average of 476 points. I wanted to see whether readers could use the colors and the axis together to make comparisons.
+
+![Initial Canva wireframe with a sorted dot plot and a blue and gray legend](pisa-wireframe-initial.png)
+
 ## Step four: Test the solution
 
-_Before you conduct your interviews, prepare a simple script.  Use this as a guide and as a way to take notes as you go forward. Come up with your own list of questions you want to ask for the selected visualization. Keep the questions broad so you can get the most value out of your feedback. Then, document answers to your questions here._
+I shared my Canva wireframe with Gemini and asked what it understood from the chart, what was confusing, and what it would change. Gemini pointed out that the legend gave the OECD average of 476, but readers still had to estimate where it fell on the axis. It also suggested labeling scores close to the benchmark.
 
-Questions to ask (modify these for your own interviews): 
+That feedback helped me see why the color change could feel abrupt when two dots were so close together. In my Tableau redesign, I added a dashed line at 476 and labeled Croatia’s 475 on the left and Portugal’s 477 on the right. The labels show how small the gap is between two countries on opposite sides of the benchmark.
+![Revised Canva wireframe with a dashed OECD benchmark and two score labels](pisa-wireframe-revised.png)
 
-- Can you tell me what you think this is?
+## Step five: Build the solution
 
-- Can you describe to me what this is telling you?
+I rebuilt the dot plot in Tableau using the 2022 reading scores for the 37 European countries shown. I kept the sorted country names and added a dashed reference line labeled with the OECD average of 476 points. I labeled Croatia’s 475 on the left and Portugal’s 477 on the right. Those scores are only two points apart, and placing the labels beside their dots makes it easier to see why they fall into different color groups. Readers can hover over any dot to see its country and score.
 
-- Is there anything you find surprising or confusing?
+The chart shows that 15 of the 37 countries shown scored above the OECD average, while 22 scored below it. Ireland and Estonia had the highest scores among the countries shown. The comparison I most wanted readers to see was the one near the benchmark. A country can fall on either side of the average even when its score is very close to it. The dot plot gives readers a way to see both the overall spread and those small differences.
 
-- Who do you think is the intended audience for this?
-
-- Is there anything you would change or do differently?
-
-Results: 
-
-_Don't identify or share personally identifiable information (PII) about the people you spoke to._
-
-
-| Question | Interview 1 | Interview 2 |
-|----------|-------------|-------------|
-|          |             |             |
-|          |             |             |
-|          |             |             |
-
-Synthesis: 
-
-_What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
-
-## Step five: build the solution
-
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
+[Explore the interactive Tableau redesign](https://public.tableau.com/app/profile/aastha.agrawal/viz/PISAReadingScoresAcrossEurope2022/Sheet1)
 
 ## References
-_List any references you used here._
+
+- [Our World in Data, Academic performance, original map and country scores](https://ourworldindata.org/grapher/academic-performance?tab=map&region=Europe&subject=reading&sex=both&time=2022)
+- OECD, *PISA 2022 Results*, via Our World in Data.
+- [Stephen Few, *Data Visualization Effectiveness Profile* (2017)](http://www.perceptualedge.com/articles/visual_business_intelligence/data_visualization_effectiveness_profile.pdf)
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
 
+I used Gemini to review my Canva wireframe as my source of peer review for this assignment. I used ChatGPT to help organize my write-up and troubleshoot Tableau as I built the final chart.
