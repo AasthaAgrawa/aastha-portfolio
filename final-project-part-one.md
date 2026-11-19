@@ -68,7 +68,12 @@ The files contain one timestamp per request, so my analysis will focus on when r
 
 IronViz organizing team confirmed that I may use the datasets for this project and that there are no sharing restrictions. I will acknowledge Student IronViz and label the data as synthetic throughout the project.
 
-[IronViz dataset folder and dictionary](https://drive.google.com/drive/folders/1iM14HVO-mLpfpPup78KTJgLt702wdPLv)
+### Dataset access
+
+The two datasets used in this project are available below:
+
+- [Dataset 1](https://drive.google.com/file/d/19BlpeZmw1tmELZqJ6Tm9F3_pE355-5qE/view)
+- [Dataset 2](https://drive.google.com/file/d/1Tq9YxzoQ-S1XHzWFCK5LqWkKBSRUYHwP/view)
 
 ## Method and medium
 
