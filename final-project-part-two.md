@@ -300,11 +300,9 @@ The class project extends that foundation through narrative development, clearer
 
 ## AI acknowledgement
 
-I used ChatGPT to help organize this write-up, develop the storyboard structure, summarize the feedback I reported, and draft questions for future testing.
+I used ChatGPT to help organize this write-up, summarize the feedback I reported, and draft questions for future testing.
 
 The follow-up questions were developed after my initial feedback conversations. They were not used to conduct those conversations.
-
-The participant findings are based on feedback I received from two graduate students and one working professional. ChatGPT helped phrase those notes; it did not supply participant responses or quotations.
 
 ## References
 
