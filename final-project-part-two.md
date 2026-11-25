@@ -67,7 +67,7 @@ The full-month timeline proposed in Part I remains a planned extension. The comp
 
 **Chart headline: “About four in ten requests hit usage limits during two selected periods.”**
 
-![Draft bar chart comparing the selected periods with the same hours on other dates](ai-period-comparison.png)
+![Draft bar chart comparing the selected periods with the same hours on other dates](sketch-1.png)
 
 | Group | Selected period | Same hours on other dates |
 |---|---:|---:|
@@ -88,7 +88,7 @@ Orange identifies the selected periods and blue identifies the comparison period
 
 **Chart headline: “The Gemini increase lasted four hours; the OpenAI increase lasted three.”**
 
-![Draft hourly line charts showing the selected Gemini and OpenAI dates](ai-hourly-detail.png)
+![Draft hourly line charts showing the selected Gemini and OpenAI dates](sketch-2.png)
 
 The panels show hourly percentages for the selected dates alongside the comparison periods. Orange represents the selected date; blue represents the same hours on other dates for that group.
 
@@ -123,7 +123,7 @@ The simulated examples support exploring this monitoring approach. They do not e
 
 I combined the comparison bars and hourly line charts into a Tableau dashboard. The dashboard includes explanatory text, a proposed monitoring response, and a statement about the simulated data.
 
-![Current combined Tableau dashboard](ai-dashboard-current.png)
+![Current combined Tableau dashboard](sketch-3.png)
 
 [Explore the interactive Tableau prototype](https://public.tableau.com/app/profile/aastha.agrawal/viz/WhenCampusAIHitsItsLimits/Dashboard1)
 
