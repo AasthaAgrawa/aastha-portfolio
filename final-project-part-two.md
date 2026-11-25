@@ -123,7 +123,7 @@ The simulated examples support exploring this monitoring approach. They do not e
 
 I combined the comparison bars and hourly line charts into a Tableau dashboard. The dashboard includes explanatory text, a proposed monitoring response, and a statement about the simulated data.
 
-![Current combined Tableau dashboard](sketch-3.png)
+![Current combined Tableau dashboard](sketch-4.png)
 
 [Explore the interactive Tableau prototype](https://public.tableau.com/app/profile/aastha.agrawal/viz/WhenCampusAIHitsItsLimits/Dashboard1)
 
